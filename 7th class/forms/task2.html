@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+</head>
+<body>
+ <form>
+   <center><h1>Admission Form</h1></center>
+   <fieldset>
+    <legend><h2>Bio Data</h2></legend>
+    <label for="first name">First Name</label>
+    <input type="text" name="your name" placeholder="Enter Your First Name">
+    <br><br>
+    <label for="last name">Last Name</label>
+    <input type="text" name="your name" placeholder="Enter Your Last Name">
+    <br><br>
+    <label for="age">Age</label>
+    <input type="date" name="age" placeholder="Enter Your Age">
+    <br><br>
+    <label for="your Email">Email</label>
+    <input type="email" name="email" placeholder="Enter Your Email" required>
+    <br><br>
+    <label for="your number">Tell</label>
+    <input type="tell" name="tell" placeholder="Enter Your Number" required>
+   </fieldset>
+   <h2>Select Your Admission Season</h2>
+    <select name="season">
+        <option value="select season" disabled selected>Select Your Season</option>
+        <option value="summer">Summer</option>
+        <option value="wniter">Winter</option>
+        <option value="autumn">Autumn</option>
+        <option value="spring">Spring</option>
+    </select> 
+   
+    <h2>Select Your Subjects</h2>
+    <input type="checkbox" name="subject1" value="accounting">Accounting
+    <input type="checkbox" name="subject2" value="B Maths">B Maths
+    <input type="checkbox" name="subject3" value="Economics">Economics
+    <input type="checkbox" name="subject4" value="Statistics">Statistics
+    <input type="checkbox" name="subject4" value="B Communication">B Communication
+    <h2>Attachement</h2>
+    <p>Attach Copy Of Your Documents here</p>
+    <input type="file" accept="pdf">
+    <br><br>
+    <button>Send</button>
+ </form>  
+   </body>
+</html>
